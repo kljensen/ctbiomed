@@ -31,6 +31,10 @@ def main(argv):
     output = open(output_file, "w")
     output_writer = csv.writer(output)
 
+    # Write a header row
+    #
+    output_writer.writerow(["Year", "PMID"])
+
     # Call Pubmed API for each year, 2000-2012 inclusive
     #
     pubmed_url = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
