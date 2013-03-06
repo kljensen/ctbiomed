@@ -42,7 +42,7 @@ Now, download the details for each article in XML format.
 
 	python ./download_pubmed_articles.py output.csv articles
 
-This will put one XML article in the `articles` directory for
+This will put one XML file in the `articles` directory for
 each article.
 
 	prompt> ls articles | head
