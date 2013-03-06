@@ -58,7 +58,7 @@ each article.
 
 You can `grep` through these files to see who is publishing.
 
-	prompt> grep '<Affiliation>.* CT' -m1 articles/* | cut -b-100 | head
+	prompt> grep '<Affiliation>.* CT,' -m1 articles/* | cut -b-100 | head
 	articles/18503422.xml: <Affiliation>Unilever Home and Personal Care Co, Skin Care Researc
 	articles/18924689.xml: <Affiliation>Discovery Technologies, Neurogen Corporation, Branfor
 	articles/18924712.xml: <Affiliation>Discovery Technologies, Neurogen Corporation, Branfor
@@ -70,7 +70,8 @@ You can `grep` through these files to see who is publishing.
 ## Todo
 
 There are a few interesting next steps to do:
- * Extract entities and locations from the articles;
- * Look at keys words in the articles
- 	- see if any are statistically overrepresented for CT relative to other states
- * Plot various stuff over time
+ * Extract entities and locations from the articles.
+ * Look at keys words in the articles.
+ 	- See if any are statistically overrepresented for CT relative to other states.
+ * Plot various stuff over time.
+ * Draw a social graph to show which CT institutions are publishing together.
