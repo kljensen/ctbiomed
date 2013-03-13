@@ -26,7 +26,7 @@ To download a list of all biomedical pubmed ids, run
 
 	python ./fetch_pmid_list.py output.csv
 
-This will put a csv-formatted list of Pubmed IDs into output.csv.
+This will put a csv-formatted list of Pubmed IDs into `output.csv`.
 It will look like
 
 	Year,PMID
@@ -66,6 +66,11 @@ You can `grep` through these files to see who is publishing.
 	articles/19184836.xml: <Affiliation>Department of Pathobiology, University of Connecticut
 	articles/19649874.xml: <Affiliation>Pfizer Inc, Eastern Point Road, Groton, CT 06340, USA
 	articles/19649897.xml: <Affiliation>Chemical Research and Development, Pfizer Inc, Groton
+
+## Results
+
+You can download a [.csv file that shows the research output by zipcode and year](http://files.kyle-jensen.com.s3.amazonaws.com/shared/ct-pubs-by-zipcode-year.csv).  Yale's 06520 is consistently the 
+top source of biomedical publications in CT.
 
 ## Todo
 
